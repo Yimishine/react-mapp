@@ -1,0 +1,40 @@
+{
+  "name": "webpackreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config=webpack/webpack.config.dev.js --color --mode development",
+    "build": "webpack --config=webpack/webpack.config.prod.js --color --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.5.5",
+    "babel-loader": "^8.0.2",
+    "better-scroll": "^1.15.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "swiper": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "autoresponsive-react": "^1.1.31",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

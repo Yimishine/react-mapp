@@ -1,0 +1,58 @@
+
+.footer-cont{
+    height:50px;
+    border-top:1px solid #eee;
+    padding:0 15px;
+    margin-top:0px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    .img-cont{
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        .home.active p,.discover.active p{
+            color:#08b2b8;
+        }
+        .home.active .img{
+            background-image: url('../../../image/icon/home1-2.png');
+        }
+        .discover.active .img{
+            background-image: url('../../../image/icon/home2-2.png');
+        }
+        .home .img{
+            background-image: url('../../../image/icon/home1-1.png');
+        }
+        .discover .img{
+            background-image: url('../../../image/icon/home2-1.png');
+        }
+        .img-box{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 0 28px;
+            .img{
+                width: 20px;
+                height: 20px;
+                margin:0 auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            img{
+                width: 20px;
+                height: 20px;
+                display: block;
+                margin:0 auto;
+            }
+            p{
+                font-size: 12px;
+                color:rgb(121, 120, 120);
+                
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+}
