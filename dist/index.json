@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "title":"瑞颜名医疗美容saaaa、专注眼睛脂肪精髓",
+            "percent":3.5,
+            "price":580,
+            "distances":5.5,
+            "desc":"衡力除皱 单部位aaaa 国产性价比 祛除动态皱纹 丰唇 实力去皱",
+            "isPrev":true,
+            "tags":["高端消费","有停车场","免费套餐"],
+            "imgs":[]
+        },
+        {
+            "title":"瑞颜名医疗bbbbbbb美容、专注眼睛脂肪精髓",
+            "percent":3.5,
+            "price":580,
+            "distances":5.5,
+            "desc":"衡力除皱 单部位bbbbbbb 国产性价比 祛除动态皱纹 丰唇 实力去皱",
+            "isPrev":true,
+            "tags":["高端消费b","有停车场b","免费套餐b"],
+            "imgs":[]
+        }
+    ]
+}
