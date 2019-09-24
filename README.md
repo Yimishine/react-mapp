@@ -4,6 +4,8 @@
 
 一个使用 react 仿写的美团(首页、搜索和发现页)，webpack4+手动搭建环境，使用 fetch 请求数据（模拟的 json 数据），使用 better-scroll 滚动界面，swiper 切换滑动发现页，autoresponsive-react 瀑布流插件。适合新手练练手。
 
+![avatar](https://img-blog.csdnimg.cn/20190910113630750.GIF)
+
 1.初始化项目。
 
 ```javascript
